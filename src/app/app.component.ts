@@ -11,7 +11,7 @@ export class AppComponent {
 
   imgUrl = "assets/BL_logo_square_jpg.jpg"; 
   url ="https://www.bridgelabz.com";
-
+userName: string = "";
   ngOnInit(): void {
     this.title = "Hello from Bridgelabz";
   }
