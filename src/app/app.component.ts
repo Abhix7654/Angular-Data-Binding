@@ -4,11 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: false,
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   title = 'Data_Binding';
-  ngOnInit():void{
-    this.title="Hello from Bridgelabz";
+
+  imgUrl = "assets/BL_logo_square_jpg.jpg"; 
+
+  ngOnInit(): void {
+    this.title = "Hello from Bridgelabz";
   }
 }
